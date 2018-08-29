@@ -1,0 +1,4 @@
+bundle/*
+*.zip
+*.pyc
+*netrwhist
