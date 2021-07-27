@@ -4,5 +4,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 vim +PluginInstall +qall
 
+apt install python3-dev cmake
+
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
