@@ -1,6 +1,8 @@
 git clone https://github.com/rafaceschin/vimfiles ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+mkdir -p ~/tmp/vim
+
 ln -s ~/.vim/vimrc ~/.vimrc
 vim +PluginInstall +qall
 
